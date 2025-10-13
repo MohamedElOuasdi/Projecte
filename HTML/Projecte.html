@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
+
 <body>
     <header>
         <img src="../Fotos/logo.png" alt="Aventura Nautica">
         <h1>Aventura Nautica</h1>
         <nav>
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Experiencias</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Galería</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
             </ul>
         </nav>
     </header>
@@ -23,40 +25,85 @@
     <main>
         <section id="inicio">
             <h2>BENVINGUTS</h2>
+            <div class="card">
+                <p>Viu el mar com mai abans. Explora les nostres experiències i serveis dissenyats per a tots els
+                    gustos.</p>
+                <p>Ens presentem com una empresa especialitzada en el sector del <b>Turisme i la Nàutica</b>,
+                    amb l’objectiu d’apropar el mar a tothom d’una manera segura, professional i memorable.
+                </p>
+                <p>La nostra activitat combina <b>experiències marítimes úniques</b> com passejades en vaixell,
+                    immersions de descoberta o activitats de lleure a la costa
+                    amb <b>serveis nàutics complementaris</b>, sempre orientats a oferir qualitat i confiança.
+                </p>
+            </div>
         </section>
-                
+
         <section id="experiencias">
             <h2>EXPERIÈNCIES</h2>
-            <div id="excursions_vaixell" >
+            <div id="excursions_vaixell" class="card">
                 <h3>Excursions amb vaixell</h3>
+                <p><b>Descripció:</b> Viu la costa com mai abans. Els nostres vaixells tenen tripulació professional
+                    i totes les mesures de seguretat perquè gaudeixis sense preocupacions</p>
+                <p><b>Beneficis:</b> Relaxació, aprenentatge, fotos espectaculars.</p>
+                <p><b>Duració i horaris:</b> 2-3 hores, sortides cada matí i tarda.</p>
             </div>
 
-            <div id="busseig_recreatiu">
+            <div id="busseig_recreatiu" class="card">
                 <h3>Busseig recreatiu</h3>
+                <p><b>Descripció:</b> Submergeix-te en un món submarí ple de colors i vida marina. Els nostres
+                    instructors t'acompanyaran en tot moment per garantir una experiència segura i emocionant</p>
+                <p><b>Beneficis:</b> Aprenentatge, fotos espectaculars, una sessió informativa de seguretat i
+                    explicaccio del terreny</p>
+                <p><b>Duració i horaris:</b> 2-3 hores, sortides tot el dia</p>
             </div>
 
-            <div id="pesca_esportiva">
+            <div id="pesca_esportiva" class="card">
                 <h3>Pesca esportiva</h3>
+                <p><b>Descripció:</b>Experimenta l'emoció de la pesca esportiva en mar obert. Des de principiants
+                    fins a experts, tothom gaudirà d'un dia inoblidable a l'aigua, la barca esta acompañada de una
+                    cuina complementaris
+                    per poder cuinar el peix recent pescat de tal manera que es pugui saborear el mar de forma
+                    directe</p>
+                <p><b>Beneficis:</b> Aprenentatge, fotos espectaculars, tot el material necesari, i menjar fresc</p>
+                <p><b>Duració i horaris:</b>1-2 hores, sortides tot el dia</p>
             </div>
 
-            <div id="capvespre_veler">
+            <div id="capvespre_veler" class="card">
                 <h3>Capvespre en veler</h3>
+                <p><b>Descripció:</b>Navega cap a l'horitzó i contempla una posta de sol única
+                    des de la coberta del nostre veler. Una experiència perfecta per relaxar-te o celebrar un moment
+                    especial</p>
+                <p><b>Beneficis:</b> Fotos espectaculars, menjar fresc, estancia relaxada y confiable amb el nostre
+                    profesional</p>
+                <p><b>Duració i horaris:</b>De 20:00 -22:30</p>
             </div>
         </section>
 
         <section id="servicios">
             <h2>SERVEIS</h2>
-            <div id="lloguer_vaixells">
-                <h3>Lloguer d'embarcacions</h3>
-            </div>
-            <div id="formacio_nautica" >
-                <h3>Formacio Nautica</h3>
-            </div>
-            <div id="manteniment_vaixells">
-            <h3>Manteniment i reparació</h3>
-            </div>
+            <div id="lloguer_vaixells" class="card">
+                    <h3>Lloguer d'embarcacions</h3>
+                    <p><b>Descripció:</b>Lloga l'embarcació que s'adapti a les teves necessitats i gaudeix del mar amb
+                        total llibertat.
+                        Opcions per a principiants i experts".</p>
+                    <p><b>Beneficis:</b> Flexibilitat, seguretat, tripulació opcional</p>
+                    <p><b>Duració i horaris:</b>Jornades de 1/2 dies "8:00-14:00 / 14:00-20:00" o tot el dia
+                        "8:00-20:00"</p>
+                </div>
+                <div id="formacio_nautica" class="card">
+                    <h3>Formacio Nautica</h3>
+                    <p><b>Cursos:</b>Navegació bàsica, avançada i seguretat en el mar.</p>
+                    <p><b>Descripció:</b> Aprèn a navegar amb seguretat i confiança. Cursos teòrics i pràctics adaptats
+                        a tots els nivells.</p>
+                </div>
+                <div id="manteniment_vaixells" class="card">
+                    <h3>Manteniment i reparació</h3>
+                    <p><b>Descripció:</b>Cuidem la teva embarcació com si fos nostra. Servei professional i materials de
+                        primera qualitat.</p>
+                    <p><b>Beneficis:</b> Neteja, reparació, manteniment preventiu i revisions tècniques</p>
+                </div>
         </section>
-                <section id="galeria">
+        <section id="galeria">
             <h2>GALERIA</h2>
             <div>
                 <!--
@@ -69,7 +116,7 @@
         </section>
     </main>
     <footer>
-            <section id="contacto">
+        <section id="contacto">
             <h2>Contacto</h2>
         </section>
         <section id="redes-sociales">
@@ -81,4 +128,5 @@
         </section>
     </footer>
 </body>
+
 </html>
